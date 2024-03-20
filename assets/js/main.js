@@ -21,9 +21,8 @@
         }
 
         if (hash == '#header') {
-          $('#header').removeClass('header-top');
-          $("section").removeClass('section-show');
-          return;
+         $("section").removeClass('section-show');
+          $(hash).addClass('section-show');
         }
 
         if (!$('#header').hasClass('header-top')) {
